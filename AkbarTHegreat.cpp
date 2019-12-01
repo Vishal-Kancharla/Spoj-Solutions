@@ -28,7 +28,7 @@ bool bfs_util(vector<vector<long>>&adj,vector<int>&visited,vector<int>&already_g
 					return false;
 				//}
 			}
-			else if(distance[u] > strength-1)
+			else if(distance[w] > strength-1)
 				check = false;
 		}
 	}
